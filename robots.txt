@@ -1,0 +1,7 @@
+user-agent: *
+sitemap: https://holt-chat.github.io/sitemap.xml
+disallow: /
+allow: /$
+allow: /sitemap.xml
+allow: /sitemap-landing.xml
+allow: /favicon.ico

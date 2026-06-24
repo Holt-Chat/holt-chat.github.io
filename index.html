@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta property="og:locale" content="en">
+    <meta name="color-scheme" content="dark">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Holt - Private chat that feels alive</title>
+    <meta property="og:title" content="Holt - Private chat that feels alive">
+    <meta name="twitter:title" content="Holt - Private chat that feels alive">
+    <meta name="description" content="Holt is an end-to-end encrypted chat app that's private but social. Real presence, typing indicators, DMs, group channels, and voice and video calls. Self-hostable and open source under MIT.">
+    <meta property="og:description" content="Holt is an end-to-end encrypted chat app that's private but social. Real presence, typing indicators, DMs, group channels, and voice and video calls. Self-hostable and open source under MIT.">
+    <meta name="twitter:description" content="Holt is an end-to-end encrypted chat app that's private but social. Real presence, typing indicators, DMs, group channels, and voice and video calls. Self-hostable and open source under MIT.">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="512x512" href="./media/holt.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="./media/holt.png">
+    <meta property="og:image" content="https://holt-chat.github.io/media/holt.png">
+    <meta property="og:image:alt" content="Holt logo">
+    <meta name="twitter:image" content="https://holt-chat.github.io/media/holt.png">
+    <meta name="theme-color" content="#141219">
+    <link rel="canonical" href="https://holt-chat.github.io/">
+    <meta property="og:url" content="https://holt-chat.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Holt">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Holt",
+      "url": "https://holt-chat.github.io/",
+      "description": "End-to-end encrypted chat that's private but social, with real presence and typing indicators."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Holt",
+      "url": "https://app.holt.chat",
+      "applicationCategory": "CommunicationApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "End-to-end encrypted chat with real presence, typing indicators, DMs, group channels, and voice and video calls. Self-hostable and open source.",
+      "license": "https://opensource.org/licenses/MIT"
+    }
+    </script>
+
+    <link rel="stylesheet" href="./media/style.css">
+  </head>
+  <body>
+    <nav>
+      <a class="nav-logo" href="https://holt-chat.github.io" aria-label="Holt home"><img src="./media/holt.png" width="30" height="30" alt="Holt logo"> Holt</a>
+      <div class="nav-links">
+        <a href="#presence" class="hidemobile">Presence</a>
+        <a href="#privacy" class="hidemobile">Privacy</a>
+        <a href="#host" class="hidemobile">Self-host</a>
+        <a href="https://github.com/holt-chat" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://holt-chat.github.io/docs" target="_blank" rel="noopener" class="hidemobile">Docs</a>
+      </div>
+      <a class="nav-cta" href="https://app.holt.chat">Open Holt</a>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1 class="hero-headline">Private,<br>but it feels <span class="hl">alive</span>.</h1>
+          <p class="hero-sub">Most encrypted chat apps feel like empty rooms. Holt keeps the part that makes a conversation human: you see who's around, who's typing, and who stepped away, while the messages stay readable only to the people in them.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="https://app.holt.chat">Open Holt</a>
+            <a class="btn-secondary" href="#presence">See how presence works</a>
+          </div>
+          <p class="hero-foot">No phone number. No ads. No tracking. MIT licensed.</p>
+        </div>
+
+        <!-- Mockup mirroring the real Holt chat UI: avatar + name + time + plain message rows -->
+        <div class="app" role="img" aria-label="The Holt app showing a channel with members online, idle and do-not-disturb, and a friend typing a reply.">
+          <div class="app-head">
+            <span class="app-channel"># design-crew</span>
+            <span class="app-sub">5 members</span>
+          </div>
+          <div class="app-body">
+            <div class="app-msg">
+              <span class="app-av app-av-a">R<span class="app-presence dot-online"></span></span>
+              <div class="app-line">
+                <span class="app-meta"><span class="app-author">Rina</span><span class="app-time">10:42</span></span>
+                <span class="app-text">Ship it. The key rotation on join is clean.</span>
+              </div>
+            </div>
+            <div class="app-msg">
+              <span class="app-av app-av-b">J<span class="app-presence dot-online"></span></span>
+              <div class="app-line">
+                <span class="app-meta"><span class="app-author">Jae</span><span class="app-time">10:43</span></span>
+                <span class="app-text">Pushing now, keys rotated for the channel.</span>
+              </div>
+            </div>
+            <div class="app-typing"><span class="typing-dots"><i></i><i></i><i></i></span> Mara is typing</div>
+          </div>
+          <div class="app-rail" aria-hidden="true">
+            <span class="member"><span class="dot dot-online"></span> Rina</span>
+            <span class="member"><span class="dot dot-online"></span> Jae</span>
+            <span class="member"><span class="dot dot-online"></span> Mara</span>
+            <span class="member"><span class="dot dot-dnd"></span> Theo</span>
+            <span class="member member-off"><span class="dot dot-off"></span> Ada</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="presence" class="presence">
+        <p class="eyebrow">The signature</p>
+        <h2 class="section-h">Status that's actually true.</h2>
+        <p class="section-lead">Presence isn't a green dot you set once and forget. Holt reflects what's really happening, so you know whether a message lands now or waits for morning. Hover a state to see how it reads.</p>
+        <div class="states" role="list">
+          <button class="state" role="listitem" type="button">
+            <span class="state-dot dot-online"></span>
+            <span class="state-name">Online</span>
+            <span class="state-desc">Here and reachable. Reply lands now.</span>
+          </button>
+          <button class="state" role="listitem" type="button">
+            <span class="state-dot dot-idle"></span>
+            <span class="state-name">Idle</span>
+            <span class="state-desc">Around, but away from the keyboard.</span>
+          </button>
+          <button class="state" role="listitem" type="button">
+            <span class="state-dot dot-dnd"></span>
+            <span class="state-name">Do not disturb</span>
+            <span class="state-desc">Reading later. Pings stay quiet.</span>
+          </button>
+          <button class="state" role="listitem" type="button">
+            <span class="state-dot dot-invis"></span>
+            <span class="state-name">Invisible</span>
+            <span class="state-desc">Online to you, offline to everyone else.</span>
+          </button>
+        </div>
+        <p class="presence-note">Typing indicators travel the same way, peer to peer and ephemeral. The ripple shows up, then it's gone. Nothing about it is ever stored.</p>
+      </section>
+
+      <section id="privacy" class="privacy">
+        <p class="eyebrow">The encryption manifest</p>
+        <h2 class="section-h">What's sealed, and what's shared.</h2>
+        <p class="section-lead">Encryption happens on your device before anything leaves it. Here's exactly what the server can never read, and the few things you choose to share so chat still feels live.</p>
+        <ul class="manifest">
+          <li>
+            <span class="tag">Encrypted</span>
+            <div>
+              <b>Message contents &amp; files</b>
+              <span>Sealed with a per-channel AES key, wrapped to each member's RSA public key. Rotated on join and leave for forward secrecy. The server stores ciphertext it can't read.</span>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Encrypted</span>
+            <div>
+              <b>Your private key</b>
+              <span>Generated in your browser and saved to a .keys file you keep. It never leaves your device, so no one signs in as you without it.</span>
+            </div>
+          </li>
+          <li>
+            <span class="tag warn">Visible</span>
+            <div>
+              <b>Presence &amp; typing</b>
+              <span>Online, idle, do-not-disturb and when you're typing are shared so chat feels live. Set yourself to invisible and none of it goes out. Status is yours to flip, anytime.</span>
+            </div>
+          </li>
+        </ul>
+        <p class="privacy-note">Read the full protocol in the <a href="https://holt-chat.github.io/docs/protocol/" target="_blank" rel="noopener">docs</a>. It's open, so you don't have to take our word for it.</p>
+      </section>
+
+      <section id="features" class="features">
+        <p class="eyebrow">Everything in one place</p>
+        <h2 class="section-h">A real chat app, not a privacy compromise.</h2>
+        <div class="features-grid" role="list">
+          <article role="listitem">
+            <h3>DMs and channels</h3>
+            <p>One-to-one messages, group chats, and broadcast channels, with roles, permissions, and invites built in.</p>
+          </article>
+          <article role="listitem">
+            <h3>Voice and video calls</h3>
+            <p>Calls flow directly between people over WebRTC. The server routes the handshake and never sees the stream.</p>
+          </article>
+          <article role="listitem">
+            <h3>Voice notes and files</h3>
+            <p>Record a voice note or drop a file. Media is encrypted the same way your messages are, handled in one interface.</p>
+          </article>
+          <article role="listitem">
+            <h3>Install anywhere</h3>
+            <p>A progressive web app that installs on any device. No app store, no waiting on review queues.</p>
+          </article>
+          <article role="listitem">
+            <h3>Speaks your language</h3>
+            <p>Several languages out of the box, including full right-to-left layout support.</p>
+          </article>
+          <article role="listitem">
+            <h3>Make it yours</h3>
+            <p>Pick your own accent color in-app. The default is this purple, but the room is yours to set.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="host" class="host">
+        <div class="host-text">
+          <p class="eyebrow">Self-hostable &middot; MIT</p>
+          <h2 class="section-h">Run it yourself, or read the part that runs it.</h2>
+          <p class="section-lead">Holt is open source under the MIT license. Point any client at any server, including one you run. Zero logs, minimal metadata, and a codebase you can audit line by line.</p>
+          <div class="host-actions">
+            <a class="btn-primary" href="https://github.com/holt-chat" target="_blank" rel="noopener">Read the source</a>
+            <a class="btn-ghost" href="https://holt-chat.github.io/docs" target="_blank" rel="noopener">Host your own</a>
+          </div>
+        </div>
+        <div class="host-terminal" aria-hidden="true">
+          <div class="term-bar"><i></i><i></i><i></i></div>
+          <pre><span class="c-cmt"># bring up your own Holt server (Keel backend)</span>
+<span class="c-pr">$</span> git clone https://github.com/holt-chat/keel.git
+<span class="c-pr">$</span> cd keel &amp;&amp; touch config.toml
+<span class="c-pr">$</span> docker compose run --build --rm keel
+<span class="c-ok">&#10003;</span> holt-keel + holt-nginx running
+<span class="c-cmt"># point any client at it and you're in</span></pre>
+        </div>
+      </section>
+
+      <section class="closer">
+        <h2 class="closer-h">Bring the room back.</h2>
+        <p class="closer-sub">Encrypted conversations don't have to feel empty. Open Holt and see who's around.</p>
+        <a class="btn-primary btn-big" href="https://app.holt.chat">Open Holt</a>
+        <p class="closer-foot">Also reachable via the <a href="https://relay.holt.chat">relay</a> and <a href="http://parleyhcclg2mpu3y4bymmzujhpksyri7cfldy5icnp4yh3fh7dw6qyd.onion">.onion</a> site.</p>
+      </section>
+    </main>
+
+    <footer>
+      <a class="nav-logo" href="https://holt-chat.github.io" aria-label="Holt home"><img src="./media/holt.png" width="22" height="22" alt=""> Holt</a>
+      <span class="foot-meta">© 2026 Holt &middot; MIT licensed &middot; <a href="https://github.com/holt-chat" target="_blank" rel="noopener">Source</a> &middot; Powered by <a href="https://github.com/Parley-Chat" target="_blank" rel="noopener">Parley Chat</a></span>
+    </footer>
+  </body>
+</html>

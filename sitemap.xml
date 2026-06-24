@@ -1,0 +1,11 @@
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://holt-chat.github.io/sitemap-landing.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://app.holt.chat/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://holt-chat.github.io/docs/sitemap-docs.xml</loc>
+  </sitemap>
+</sitemapindex>

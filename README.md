@@ -6,12 +6,12 @@
   Marketing site for [Holt Chat](https://github.com/Holt-Chat), an end-to-end encrypted chat app that's private but social.
 
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
-  [![Live](https://img.shields.io/badge/live-holt--chat.github.io-9d7bff?style=flat-square)](https://holt-chat.github.io)
+  [![Live](https://img.shields.io/badge/live-holtchat.xyz-9d7bff?style=flat-square)](https://holtchat.xyz)
 </div>
 
 ---
 
-Static HTML and CSS, no build step. Served live at [holt-chat.github.io](https://holt-chat.github.io) via GitHub Pages.
+Static HTML and CSS, no build step. Served live at [holtchat.xyz](https://holtchat.xyz) via GitHub Pages.
 
 ## Local preview
 

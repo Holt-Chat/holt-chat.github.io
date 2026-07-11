@@ -1,5 +1,5 @@
 user-agent: *
-sitemap: https://holt-chat.github.io/sitemap.xml
+sitemap: https://holtchat.xyz/sitemap.xml
 disallow: /
 allow: /$
 allow: /sitemap.xml
